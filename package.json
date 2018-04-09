@@ -1,0 +1,27 @@
+{
+    "name": "nodebb-plugin-bing-search-cn",
+    "version": "0.0.1",
+    "description": "Bing Search China for NodeBB.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hmqgg/nodebb-plugin-bing-search-cn.git"
+    },
+    "keywords": [
+        "nodebb",
+        "search",
+        "bing"
+    ],
+    "author": "hmqgg",
+    "license": "Apache 2.0",
+    "bugs": {
+        "url": "https://github.com/hmqgg/nodebb-plugin-bing-search-cn/issues"
+    },
+    "homepage": "https://github.com/hmqgg/nodebb-plugin-bing-search-cn#readme",
+    "nbbpm": {
+        "compatibility": "^1.8.0"
+    }
+}

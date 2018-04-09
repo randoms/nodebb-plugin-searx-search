@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-bing-search-cn",
+	"name": "Bing Search for China",
+	"description": "Bing Search China for NodeBB.",
+	"url": "https://github.com/hmqgg/nodebb-plugin-bing-search-cn",
+	"library": "./index.js",
+	"hooks": [
+		{"hook": "static:app.load", "method": "init"},
+		{"hook": "filter:search.query", "method": "dummy"}
+	]
+}

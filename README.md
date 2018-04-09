@@ -1,0 +1,1 @@
+A nodebb plugin integrates Bing search for China
