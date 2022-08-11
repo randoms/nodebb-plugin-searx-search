@@ -1,14 +1,14 @@
 {
-    "name": "nodebb-plugin-bing-search-cn",
+    "name": "nodebb-plugin-searx-search",
     "version": "0.0.1",
-    "description": "Bing Search China for NodeBB.",
+    "description": "Searx Search for NodeBB.",
     "main": "index.js",
     "scripts": {
         "test": "echo \\\"Error: no test specified\\\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hmqgg/nodebb-plugin-bing-search-cn.git"
+        "url": "git+https://github.com/randoms/nodebb-plugin-searx-search.git"
     },
     "keywords": [
         "nodebb",
@@ -18,9 +18,9 @@
     "author": "hmqgg",
     "license": "Apache 2.0",
     "bugs": {
-        "url": "https://github.com/hmqgg/nodebb-plugin-bing-search-cn/issues"
+        "url": "https://github.com/randoms/nodebb-plugin-searx-search/issues"
     },
-    "homepage": "https://github.com/hmqgg/nodebb-plugin-bing-search-cn#readme",
+    "homepage": "https://github.com/randoms/nodebb-plugin-searx-search#readme",
     "nbbpm": {
         "compatibility": "^1.8.0"
     }

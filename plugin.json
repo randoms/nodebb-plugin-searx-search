@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-bing-search-cn",
-	"name": "Bing Search for China",
-	"description": "Bing Search China for NodeBB.",
-	"url": "https://github.com/hmqgg/nodebb-plugin-bing-search-cn",
+	"id": "nodebb-plugin-searx-search",
+	"name": "Searx Search",
+	"description": "Searx for NodeBB.",
+	"url": "https://github.com/randoms/nodebb-plugin-searx-search",
 	"library": "./index.js",
 	"hooks": [
 		{"hook": "static:app.load", "method": "init"},

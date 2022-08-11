@@ -1,1 +1,1 @@
-A nodebb plugin integrates Bing search for China
+A nodebb plugin integrates Searx search
