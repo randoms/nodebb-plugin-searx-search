@@ -7,7 +7,8 @@ function transformDomain(domain) {
 }
 
 function searchURL(req) {
-    return 'https://searx.be/search?q=site%3A' + encodeURIComponent(transformDomain(nconf.get('url'))) + '%20' + encodeURIComponent(req.params.term || req.query.term || '');
+    //return 'https://searx.be/search?q=site%3A' + encodeURIComponent(transformDomain(nconf.get('url'))) + '%20' + encodeURIComponent(req.params.term || req.query.term || '');
+    return 'https://www.so.com/s?q=site%3A' + encodeURIComponent(transformDomain(nconf.get('url'))) + '%20' + encodeURIComponent(req.params.term || req.query.term || '');
 }
 
 module.exports = {
